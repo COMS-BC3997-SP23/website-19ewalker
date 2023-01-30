@@ -1,3 +1,9 @@
+---
+layout: page
+title: Project Proposal
+permalink: /proposal/
+---
+
 ## Project Proposal
 
 For my project in COMS BC 3997, I plan to build a database-backed website that provides up-to-date, accessible information on food pantries, soup kitchens, food banks, and community fridges open in New York City.

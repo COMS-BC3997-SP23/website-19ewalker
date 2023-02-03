@@ -4,8 +4,8 @@
 
 layout: home
 ---
-# Find Food NYC
+# NYCHA Data Project
 
-For my project in COMS BC 3997, I plan to build a database-backed website that provides up-to-date, accessible information on food pantries, soup kitchens, food banks, and community fridges open in New York City.
+For my project in COMS BC 3997, I plan to build a database-backed website that allows users to easily search data on violations and service requests at NYCHA developments.
 
 Keep checking my site to stay updated on progress!

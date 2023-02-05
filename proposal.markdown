@@ -13,7 +13,7 @@ Conditions in NYC housing projects have been [deteriorating over the past couple
 
 ### Goals and Objectives
 
-My goal is to create a centralized site in order to easily view current work orders across developments in NYCHA's housing projects. I would ideally like my final site to have a map page where people can navigate between different housing developments and see the different work orders open at each building. There would also be filters to see, for example, which buildings had current exterminator service requests, etc. There will also be a search page where people can search for a particular NYCHA building and see all open work orders. 
+My goal is to create a centralized site in order to view and analyze work orders across developments in NYCHA's housing projects. I would ideally like my final site to have a map page where people can navigate between different housing developments and see the different work orders open at each building. There would also be filters to see, for example, which buildings had exterminator service requests, problems withh ot water, etc. There will also be a search page where people can search for a particular NYCHA building and see all open work orders. 
 
 If I have time at the end, I would also like to complete some data analysis/visualization in order to determine some of the most common service requests, the average response time, maybe even some predictive analysis if I have time to learn that!
 

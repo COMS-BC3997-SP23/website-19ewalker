@@ -3,5 +3,8 @@ layout: default
 title: Weekly Updates
 nav_order: 2
 has_children: true
+permalink: /posts/weekly-updates
 ---
-This is where all of my weekly updates will be. Feel free to explore my weekly progress!
+# Weekly Updates
+
+This is where all of my weekly updates will be. Feel free to navigate the tabs to the left to check out my progress!

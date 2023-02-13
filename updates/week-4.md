@@ -19,11 +19,13 @@ In New York City, the 311 Call Center is a nonemergency service line created to 
 Studying 311 datasets has a range of advantages and disadvantages. Importantly, 311 datasets are typically made widely available and contain high levels of detail. However, 311 callers are not evenly distributed across all zip codes. Typically, certain zip codes and demographics are more likely to utilize the service. For instance, a study of 311 calls over social distance violations in the early pandemic demonstrated that Black and Hispanic communities would be less likely to call in these violations. Additionally, a potential confounding variable can be overactive users who dominate the local calls in a zip code. Finally, while these calls provide geolocation, information about the caller's identity is not available.
 
 **Pandemic 311 Behavior**
+
 To begin, it appears apparent that 311 usage increased during the beginning of the pandemic. A previous study found that the NYC 311 call center received 17% more calls between March 28th and September 5th, 2020 than during the same period in 2019. 
 
 In terms of noise, London saw significant increases in noise complaints from construction and neighbors, although housing and demographic factors played a more significant role than actual exposure to road and rail traffic noise. Due to these increases, some city councils in the UK had to release guidance on coping with noise annoyance, demonstrating the distress this noise signified. Another study conducted in London found that survey respondents perceived a decrease in outside noise but an increase in noise from neighbors, with noise annoyance rates increasing. In New York City during March 2020, the 311 System recorded a 42% increase in loud television complaints compared to the previous year. Overall, it was clear that while environmental and traffic noise level evaluation and annoyance significantly decreased during the lockdown, annoyance due to residential noise increased.
 
 Past studies have demonstrated that noise annoyance during the COVID-19 pandemic was positively correlated with stress and anxiety levels. When linked to past findings that housing and demographic factors played a more significant role in noise complaints than road and rail noise, an interesting point is raised concerning noise complaints across neighborhoods and demographics throughout the COVID-19 pandemic.
+
 **Current Reading**
 
 - https://academic.oup.com/jpubhealth/article/42/3/448/5857760

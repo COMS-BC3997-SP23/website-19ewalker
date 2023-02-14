@@ -28,15 +28,13 @@ Past studies have demonstrated that noise annoyance during the COVID-19 pandemic
 
 **Current Reading**
 
-- https://academic.oup.com/jpubhealth/article/42/3/448/5857760
-- https://academic.oup.com/socpro/advance-article/doi/10.1093/socpro/spab075/6479622
-- https://link.springer.com/article/10.1007/s10900-021-01006-y
-- https://journals.sagepub.com/doi/pdf/10.1177/1078087416673202
-- https://www.degruyter.com/document/doi/10.1515/noise-2021-0008/html
-- https://www.sciencedirect.com/science/article/pii/S0048969721022841
-- https://www.sciencedirect.com/science/article/pii/S0013935121015553
-- https://www.sciencedirect.com/science/article/pii/S2210670721000603
-- https://asa.scitation.org/doi/full/10.1121/10.0002667
+- [Three months of informational trends in COVID-19 across New York City](https://academic.oup.com/jpubhealth/article/42/3/448/5857760)
+- [Policing a Pandemic in New York City: How Do Community Features Matter in the Location of Social Distancing Violations?](https://academic.oup.com/socpro/advance-article/doi/10.1093/socpro/spab075/6479622)
+- [The Promises and Pitfalls of 311 Data](https://journals.sagepub.com/doi/pdf/10.1177/1078087416673202)
+- [Increases in noise complaints during the COVID-19 lockdown in Spring 2020: A case study in Greater London, UK](https://www.sciencedirect.com/science/article/pii/S0048969721022841)
+- [Attitudes towards outdoor and neighbour noise during the COVID-19 lockdown: A case study in London](https://www.sciencedirect.com/science/article/pii/S2210670721000603)
+- [Noise annoyance during COVID-19 lockdown: A research of public opinion before and during the pandemic](https://asa.scitation.org/doi/full/10.1121/10.0002667)
+- [Characterizing 311 System Reactions to a Global Health Emergency](https://scholarspace.manoa.hawaii.edu/items/10f7f4df-271d-44fb-8776-86c06692267a)
 
 ### Setting Up 311 Data
 

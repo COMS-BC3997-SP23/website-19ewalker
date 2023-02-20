@@ -6,6 +6,12 @@ parent: Updates
 
 ## Project Week 5
 
+### Research Questions and Hypotheses
+In my research, I’m interested in assessing how noise complaints shifted in New York City during the pandemic and in comparison to pre-pandemic periods. I believe that NYC’s 311 Call Center received on average more complaints about residential noises in the first three months of the pandemic than the Call Center received in the same period during 2019. Meanwhile, I believe the call center will receive on average less complaints about commercial, vehicle, and street/sidewalk noise in these first three months compared to the same period in 2019. During this three month period, I believe that low-income zip codes will be more likely to experience and report monthly noise complaints on average compared to high-income zip codes. I plan to source this data on low-income vs high-income zip codes using Census data on median household income by zip code.
+
+In addition to the first three months of the pandemic, I’m also interested in examining noise complaints during other periods of the COVID-19 pandemic throughout New York City. (Add more hypotheses + evaluation plan tomorrow!)
+
+
 ### Timeline
 - March 1, 2020: First case confirmed in NY State
 - March 7, 2020: Cuomo declared a state of emergency in New York State

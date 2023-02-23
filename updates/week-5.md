@@ -14,6 +14,8 @@ In my research, I’m interested in assessing how noise complaints shifted in Ne
 
 I plan to source this data on low-income vs medium- and high-income zip codes using Census data on median household income by zip code.
 
+In addition to checking out some of these hypotheses, I want to use this dataset as a starting point to tackling some different big data problems. For example, I think it could be really cool to do some prediction of type of noise complaint you'd likely experience in a given zip code at a given time of day. It could also be very cool to do some data visualizations of how call frequency varies over time. I'm still brainstorming things, but exploring this dataset has me excited for this project!
+
 ### Preliminary Data Analysis
 In addition to brainstorming research questions, I've also been performing some preliminary analysis on my dataset to clean it up and get a sense of the most common complaints. I referenced the Jupyter notebook of a [similar project on 311 Data](https://nbviewer.org/github/oikonang/social_data_visualization/blob/master/Final_Project/Preliminary%20Analysis.ipynb) to help guide me when cleaning this dataset.
 
@@ -65,4 +67,3 @@ Finally, I want to share some quick stats on the number of noise-related calls r
 - January 1 to February 13, 2023: 52,096 calls
 
 We'll have to ignore the 2018 and 2023 data in this context since those aren't full years, but we can start to see that noise-related complaints increased by 70% from 2019 to 2020. I'm excited to keep exploring this data and see what else can be found in the coming weeks!
-5	2023	52096

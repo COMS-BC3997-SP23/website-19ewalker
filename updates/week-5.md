@@ -14,34 +14,55 @@ In my research, I’m interested in assessing how noise complaints shifted in Ne
 
 I plan to source this data on low-income vs medium- and high-income zip codes using Census data on median household income by zip code.
 
-In addition to the first three months of the pandemic, I’m also interested in examining noise complaints during other periods of the COVID-19 pandemic throughout New York City. 
+### Preliminary Data Analysis
+In addition to brainstorming research questions, I've also been performing some preliminary analysis on my dataset to clean it up and get a sense of the most common complaints. I referenced the Jupyter notebook of a [similar project on 311 Data](https://nbviewer.org/github/oikonang/social_data_visualization/blob/master/Final_Project/Preliminary%20Analysis.ipynb) to help guide me when cleaning this dataset.
 
+I started with cleaning my dataset. My data file was taken from the NYC Open Data database for 311 calls, and it is filtered to include only complaints whose Complaint Type mentions Noise, and between dates 13 February 2018 and 13 February 2023. Next, I loaded it into Python and dropped all irrelevant columns from the dataset so that all that remained were "Created Date", "Closed Date", "Complaint Type", "Descriptor", "Incident Zip", "Borough", "Latitude", "Longitude", and "Location". Next, I removed any rows with N/A info. This cleaning left me with 3179779 rows and 9 columns.
 
-### Timeline
-- March 1, 2020: First case confirmed in NY State
-- March 7, 2020: Cuomo declared a state of emergency in New York State
-- March 11, 2020: WHO declares a global COVID-19 pandemic
-- March 16, 2020: New York City schools closed
-- March 17, 2020: Theaters, nightclubs, and concert venues are shut down
-- March 20, 2020: New York State governor's office issued an executive order (PAUSE) closing "non-essential" businesses
-- April 4, 2020: President Trump announces 1,000 federal medical soldiers will be deployed to NYC
-- April 6, 2020: the statewide PAUSE order was extended through April 29
-- April 15, 2020: Face masks in public areas were mandated throughout New York State by an executive order 
-- April 16, 2020: the statewide PAUSE order was extended through May 15
-- May 28, 2020: George Floyd protests began, taking place in several locations around New York City
-- May 28, 2020: An executive order by Governor Cuomo gave business owners the authority to decide whether patrons must wear a face covering to enter
-- June 1 to 7, 2020: As a result of looting during the George Floyd protest, and amid the COVID-19 pandemic, the city was placed under curfew (the first since 1943).
-- June 8, 2020: First phase of reopening began with limited occupancies. Between 200,000 and 400,000 people were expected to return to work 
-- June 22, 2020: Second phase of reopening began. 300,000 people were expected to return to work
-- June 24, 2020: New York state began requiring travelers to self-quarantine for 14 days if traveling from an area with high infection rates.
-- July 6, 2020: NYC enters third phase of reopening except for indoor dining
-- July 20, 2020: NYC enters fourth phase of reopening
-- September 30, 2020: Indoor dining starts again with 25% capacity
-- November 19, 2020: Public schools were closed again to in-person learning
-- December 14, 2020: Indoor dining is suspended again
-- February 25, 2021: public middle schools reopen for in-person learning
-- March 22, 2021: public high schools reopen for in-person learning
-- May 21, 2021: Fully vaccinated individuals are permitted to forego masks in New York State under certain situations, especially when outdoors. Face coverings are still required when riding public transportation, in schools or health care facilities, in certain residential facilities, and in stores and restaurants at the discretion of the owner, among other activities
-- June 15, 2021: Governor Cuomo reopens New York State
-- August 3, 2021: Mayor de Blasio announces that New York City would become the first in the United States to require proof of vaccination for workers and customers at all indoor dining establishments, gyms, entertainment venues, and performances
-- August 16, 2021: Masks are required indoors again
+Next, I wanted to grab the unique categories for Complaint Type and Descriptor, just to get a general sense of the types of complaints. In this dataset, there were 9 unique complaint type categories that were reported with the following frequency (in most to least order):
+
+**Most Common Noise Complaint Types**
+
+1. Noise - Residential: 1,598,390 complaints
+2. Noise - Street/Sidewalk: 714,582 complaints
+3. Noise - Vehicle: 306,675 complaints
+4. Noise: 250,478 complaints
+5. Noise - Commercial: 244,588 complaints
+6. Noise - Park:	32,704 complaints
+7. Noise - Helicopter:	25,735 complaints
+8. Noise - House of Worship:	5,919 complaints
+9. Collection Truck Noise:	708 complaints
+
+Below is a simple graph to visualize these complaint frequencies. 
+
+<img width="855" alt="complaint_freq" src="https://user-images.githubusercontent.com/44076192/220824764-5ecb6721-5f65-4123-9e0a-4f0b4b9cda36.png">
+
+Meanwhile, the top 10 complaint descriptions were as follows. My favorite new tidbit is that noise from ice cream trucks are the 14th most common complaint. 
+
+**Top 10 Noise Complaint Descriptions**
+1. Loud Music/Party: 1,903,334 complaints
+2. Banging/Pounding: 418,678 complaints
+3. Loud Talking: 233,756 complaints
+4. Car/Truck Music: 200,128 complaints
+5. Noise: Construction Before/After Hours (NM1): 103,688 complaints
+6. Car/Truck Horn: 70,689 complaints
+7. Engine Idling: 51,569 complaints
+8. Noise: Construction Equipment (NC1): 36,253 complaints
+9. Noise, Barking Dog (NR5): 31,436 complaints
+10. Loud Television: 24,704 complaints
+
+Here's another simple graph to visualize specific noise description frequencies.
+
+<img width="855" alt="descriptor_freq" src="https://user-images.githubusercontent.com/44076192/220824785-50dabc52-bc1e-4858-acda-b415897fdad4.png">
+
+Finally, I want to share some quick stats on the number of noise-related calls received over the period February 2018 - February 2023. Here is some quick info on the stats surrounding noise-related calls in those years.
+
+- February 13 to Dec 31, 2018: 397,563 calls
+- January 1 to Dec 31, 2019: 471,402 calls
+- January 1 to Dec 31, 2020: 798,989 calls
+- January 1 to Dec 31, 2021: 745,739 calls
+- January 1 to Dec 31, 2022: 713,990 calls
+- January 1 to February 13, 2023: 52,096 calls
+
+We'll have to ignore the 2018 and 2023 data in this context since those aren't full years, but we can start to see that noise-related complaints increased by 70% from 2019 to 2020. I'm excited to keep exploring this data and see what else can be found in the coming weeks!
+5	2023	52096

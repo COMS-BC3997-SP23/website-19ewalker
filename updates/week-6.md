@@ -1,0 +1,65 @@
+---
+layout: default
+title: Project Week 6
+parent: Updates
+---
+
+## Project Week 6
+
+This week, I wanted to continue some preprocessing by adding neighborhood information to each row in the database and doing some stats on those 
++ zip code data.
+
+### Adding Neighborhood Info
+First off, my existing database included zip code values, but I wanted to also add a column for neighborhood names in order to give users some more
+context, since most people can't identify many zip codes off the top of their head. To link zip codes to neighborhood names, I used [this neighborhood index doc](https://www.nyc.gov/assets/doh/downloads/pdf/ah/zipcodetable.pdf)
+from the NYC government United Hospital Fund codes which connects zip codes to neighborhood names. A lot of this isn't exact, but I think it's helpful to have context for these places.
+
+Linking these neighborhood names by zip code was a pretty tedious process that took a lot of computing time. I probably didn't perform this computation in the
+most efficient way, but it felt most intuitive to me to use a for loop to iterate through each row of the table and perform a series of if/else if statements to modify the
+neighborhood column based on the zip code column.
+
+After a couple hours of computing this, I had assigned neighborhood values to most of the rows in the database. Right now, there are still ~32k blank rows whose
+zip codes didn't match the ones in the document, but I'm hoping to remedy this soon.
+
+Here are some breakdowns of the neighborhoods + zip codes with the most/least noise complaints from Jan 1 2018 to Dec 31 2022!
+
+**Zip Codes with Most Noise Complaints**
+1. 10466 (Northeast Bronx, Bronx): 221,456 complaints
+2. 10031 (Washington Heights - Inwood, Manhattan):	60,935 complaints
+3. 10453 (Crotona - Tremont, Bronx): 58,902 complaints
+4. 10457 (Crotona - Tremont, Bronx): 58,669 complaints
+5. 10034 (Washington Heights - Inwood, Manhattan): 54,661 complaints
+6. 10032 (Washington Heights - Inwood, Manhattan): 53,684 complaints
+7. 10452 (High Bridge - Morrisania, Bronx): 53,496 complaints
+8. 10468 (Fordham - Bronx Park, Bronx): 53,086 complaints
+9. 11226 (East Flatbush - Flatbush, Brooklyn): 51,414 complaints
+10. 10456 (High Bridge - Morrisania, Bronx): 50,428 complaints
+
+**Neighborhoods with Most Noise Complaints**
+1. Washington Heights - Inwood, Manhattan: 259,300 complaints
+2. Northeast Bronx, Bronx: 244,944 complaints
+3. Crotona - Tremont, Bronx: 150,702 complaints
+4. Fordham - Bronx Park, Bronx: 145,917 complaints
+5. Bedford Stuyvesant - Crown Heights: 135,163 complaints
+6. High Bridge - Morrisania, Bronx: 133,349 complaints
+7. Central Harlem - Morningside Heights, Manhattan: 119,117 complaints
+8. Williamsburg - Bushwick, Brooklyn: 118,538 complaints
+9. East Flatbush - Flatbush, Brooklyn: 114,316 complaints
+10. Pelham - Throgs Neck, Bronx: 111,030 complaints
+
+**Neighborhoods with Least Noise Complaints**
+1. Canarsie - Flatlands (Brooklyn): 29,371
+2. Sunset Park (Brooklyn): 28,981
+3. Stapleton - St. George (Staten Island): 27,658
+4. Southeast Queens (Queens): 26,137
+5. Rockaway (Queens): 24,171
+6. Lower Manhattan (Manhattan): 18,359
+7. South Beach - Tottenville (Staten Island): 16,867
+8. Port Richmond (Staten Island): 15,185
+9. Bayside - Little Neck (Queens): 9,719
+10. Willowbrook (Staten Island): 9,193
+
+**Notes on these Results**
+- Each of the 4 Staten Island neighborhoods are in the neighborhoods with least noise complaints category
+- All 10 of the zip codes with the most noise complaints are in Upper Manhattan + the Bronx
+- I might need to check what's going on with the 10466 zip code, since it seems a bit odd that it has over triple the noise complaints of the second highest zip code.

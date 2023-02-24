@@ -6,8 +6,7 @@ parent: Updates
 
 ## Project Week 6
 
-This week, I wanted to continue some preprocessing by adding neighborhood information to each row in the database and doing some stats on those 
-+ zip code data.
+This week, I wanted to continue some preprocessing by adding neighborhood information to each row in the database and doing some stats on neighborhood/zip code data.
 
 ### Adding Neighborhood Info
 First off, my existing database included zip code values, but I wanted to also add a column for neighborhood names in order to give users some more
@@ -63,3 +62,4 @@ Here are some breakdowns of the neighborhoods + zip codes with the most/least no
 - Each of the 4 Staten Island neighborhoods are in the neighborhoods with least noise complaints category
 - All 10 of the zip codes with the most noise complaints are in Upper Manhattan + the Bronx
 - I might need to check what's going on with the 10466 zip code, since it seems a bit odd that it has over triple the noise complaints of the second highest zip code.
+- The zip code for (10027) has the 22nd most complaints of the 231 zip codes.

@@ -60,6 +60,16 @@ Here are some breakdowns of the neighborhoods + zip codes with the most/least no
 
 **Notes on these Results**
 - Each of the 4 Staten Island neighborhoods are in the neighborhoods with least noise complaints category
-- All 10 of the zip codes with the most noise complaints are in Upper Manhattan + the Bronx
+- 9 out of 10 of the zip codes with the most noise complaints are in Upper Manhattan + the Bronx
 - I might need to check what's going on with the 10466 zip code, since it seems a bit odd that it has over triple the noise complaints of the second highest zip code.
 - The zip code for (10027) has the 22nd most complaints of the 231 zip codes.
+
+**Side Note**: I unfortunately learned on Sunday evening that if you make changes to a Pandas dataframe, it's really important to save that dataframe as a new csv because when you close out of your notebook, those changes you make to the original csv are not permament. Meaning that if you spend a few hours adding a new column to your dataframe, you will have to repeat that computation next time you open that Jupyter notebook if you don't save it as a new csv.
+
+<img width="1280" alt="Screen Shot 2023-02-26 at 6 12 33 PM" src="https://user-images.githubusercontent.com/44076192/221443302-557be14a-3446-4454-a26f-289c576dcc02.png">
+
+### Adding Income Information
+
+I knew from my hypotheses that I was going to want to compare median incomes with noise complaint levels in zip codes, so I decided to pull the median household income for each of the zip codes present on the UHF list I linked above. Note: there are more zip codes in New York City that are not on this list, but a lot of them are technically P.O. boxes or only take the span of a block or so, and there is not enough census/income data because the area is too small.
+
+I made a spreadsheet of all of the zip codes I had previously linked to specific neighborhoods, totaling around 170 zip codes across the five boroughs. For each zip code, I found the median household income from [Income by Zip Codes](incomebyzipcode.com/newyork). The site states that their income statistics are the most current ones available from the US Census Bureau and are from the American Community Survey 2021 5-year estimates. Addiitonally, these values are in 2021 inflation-adjusted dollars.

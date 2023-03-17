@@ -74,3 +74,64 @@ Finally, we'll compare street/sidewalk noise in the two periods.
 **Number of street & sidewalk noise complaints between 03/01/2020 and 05/31/2020:** 5129 (March '20 complaints) + 5491 (April '20 complaints) + 7657 (May '20 complaints) = 30,570 street and sidewalk noise complaints
 
 Finally, in probably the biggest upset, I was surprised to find that street and sidewalk noise complaints increased by 44% from the 2019 period to the 2020 period. One explanation I have for this is that people were forced to find places outside to congregate which probably led to some fairly noisy outside gatherings.
+
+---
+Based on the histogram shown above, I noticed that the most noticeable changes occurred in the summer months, so I also took the liberty of recalculating all of the above values for the period March 1 to August 31 during 2019 and 2020.
+<img width="1160" alt="image" src="https://user-images.githubusercontent.com/44076192/225912350-3fc504ce-afa4-4b4e-b6d5-ca1cf2e453ee.png">
+
+Over the six month period, the commercial complaint levels in 2020 seem much more similar to those in 2019, while street/sidewalk noise complaints exploded during the summer months and vehicle noise complaints were similarly high.
+
+Next, I wanted to calculate differences in noise change across neighborhoods over this six month period in 2019 versus 2020. (I defined these neighborhoods previously using the United Hospital Fund neighborhood index.) Because of the different population sizes for each respective neighborhood, I thought it would be more valuable to measure the percentage difference instead of just calculating the # of 2020 complaints minus the # of 2019 complaints. To accomplish this, I created two new dataframes: one containing noise complaints for March, April, ..., August in 2019 and one with complaints for the same period in 2020. 
+
+I then aggregated the values by neighborhood for each dataframe in order to establish the number of noise complaints in each neighborhood in each period. To calculate the % change for a given neighborhood, I used the equation (# calls during 2020 - # calls during 2019)/(# calls during 2019). 
+
+According to my calculations, the neighborhoods with the **largest increases in noise complaints** were 
+
+1. Northeast Bronx, Bronx: 1220% increase in noise complaints (Note: this seems like some weird error?)
+2. Crotona - Tremont, Bronx: 151% increase
+3. Washington Heights - Inwood, Manhattan: 107% increase
+4. High Bridge - Morrisania, Bronx: 101% increase
+5. East Harlem, Manhattan: 97% increase
+6. Kingsbridge - Riverdale, Bronx: 93% increase
+7. Pelham - Throgs Neck, Bronx: 89% increase
+8. Fordham - Bronx Park, Bronx: 86% increase
+9. Canarsie - Flatlands, Brooklyn: 80% increase
+10. Flushing - Clearview, Queens: 79% increase
+
+Meanwhile, the neighborhoods that had decreases (or the smallest increases) in noise complaints were as follows:
+
+1. Greenwich Village - SoHo, Manhattan: 25% decrease in noise complaints
+2. Gramercy Park - Murray Hill, Manhattan: 2.5% decrease
+3. Lower Manhattan, Manhattan: 1.9% increase
+4. Chelsea - Hells Kitchen, Manhattan: 3.3% increase
+5. Upper East Side, Manhattan: 6.0% increase
+6. Downtown - Heights - Park Slope, Brooklyn: 8.6% increase
+7. Fresh Meadows, Queens: 9.9% increase
+8. Stapleton - St. George, Staten Island: 15% increase
+9. Jamaica, Queens: 15% increase
+10. Upper West Side, Manhattan - 15% increase in noise
+
+I repeated the same processes with zip codes and found the following zip codes with the **largest increases in noise complaints** were
+1. 10466 (Northeast Bronx, Bronx) - 2490% increase (well I guess that's the source of error I was looking for)
+2. 10475 (Northeast Bronx, Bronx) - 233% increase
+3. 10457 (South Bronx, Bronx) - 217% increase
+4. 10034 (Washington Heights - Inwood, Manhattan) - 184% increase
+5. 10451 (South Bronx, Bronx) - 181% increase
+6. 10037 (Central Harlem, Manhattan) - 148% increase
+7. 10470 (Northeast Bronx, Bronx) - 146% increase
+8. 11356 (Flushing - Clearview, Queens) - 135% increase
+9. 11228 (Bay Ridge - Bensonhurst, Brooklyn) - 134% increase
+10. 10040 (Washington Heights - Inwood, Manhattan) - 129% increase
+
+Meanwhile, the following zip codes had the largest decreases in noise complaints:
+
+1. 11432 (Jamaica, Queens)
+2. 10017 
+3. 10022
+4. 10005
+5. 10013
+6. 10014
+7. 10023
+8. 10012
+9. 10004
+10. 10011

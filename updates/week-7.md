@@ -125,13 +125,13 @@ I repeated the same processes with zip codes and found the following zip codes w
 
 Meanwhile, the following zip codes had the largest decreases in noise complaints:
 
-1. 11432 (Jamaica, Queens)
-2. 10017 
-3. 10022
-4. 10005
-5. 10013
-6. 10014
-7. 10023
-8. 10012
-9. 10004
-10. 10011
+1. 11432 (Jamaica, Queens) - 37% decrease in noise complaints 
+2. 10017 (Gramercy Park - Murray Hill, Manhattan) - 34% decrease
+3. 10022 (Gramercy Park - Murray Hill, Manhattan) - 33% decrease
+4. 10005 (Lower Manhattan, Manhattan) - 32% decrease
+5. 10013 (Greenwich Village - SoHo, Manhattan) - 29% decrease
+6. 10014 (Greenwich Village - SoHo, Manhattan) - 24% decrease
+7. 10023 (Upper West Side, Manhattan) - 23% decrease
+8. 10012 (Greenwich Village - SoHo, Manhattan) - 21% decrease
+9. 10004 (Lower Manhattan, Manhattan) - 21% decrease
+10. 10011 (Chelsea - Hell's Kitchen, Manhattan) - 19% decrease

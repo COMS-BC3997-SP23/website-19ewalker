@@ -67,3 +67,9 @@ And the zip codes were the largest decreases in noise complaints were...
 <img width="820" alt="image" src="https://user-images.githubusercontent.com/44076192/226221272-11bc436c-2db0-4443-a236-17b6a0607a97.png">
 
 Note: I added median household income information sourced from [Income by Zip Codes](https://www.incomebyzipcode.com/newyork) to each of these zip codes.
+
+# What's Next
+
+- Perform statistical tests on the results I found above (most tricky will probably be the last one)
+- Analyzing more periods beyond the start of the pandemic
+- Noise complaint prediction / finding other means of exploring the data

@@ -51,5 +51,13 @@ experienced decreases in noise levels, likely due to the sharp decline in touris
 largely was found on the west side of Manhattan while the east side experienced some increases in noise. Checking a map, it appears that there are some
 hospitals there, so that could be part of the issue.
 
-Next up, I plan to start performing some hypothesis testing!
+---
+Also, I wanted to check out the dates in this dataset with the most noise complaints. I added a new column in order to aggregate the data by
+date and looked at the 50 dates with the most 311 noise complaints and found the following
 
+* 48/50 of the dates with most noise complaints were in May to September (with the remaining two in October)
+* All of the top 5 noisiest dates were in 2020
+* 25/50 of the dates with most noise complaints were in 2020
+* 14/50 of the dates with most noise complaints were in 2021
+* 11/50 of the dates with most noise complaints were in 2022
+* 0/50 of the dates with most noise complaints were in 2018 or 2019

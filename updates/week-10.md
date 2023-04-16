@@ -31,3 +31,37 @@ For my second hypothesis, this would require repeating the same paired T-test pr
 street/sidewalk noise, and residential.
 
 #### Commercial Noise
+I conducted a paired t-test to compare the mean commercial noise complaints in the March 1 to May 31, 2019 period against the same period in 2020.
+I found a T statistic of 8.681 and a P value of 1.468e-13 which indicates that there was a **statistically significant decrease** in the 
+number of 311 commercial noise complaints during the 2020 period.
+
+#### Vehicle Noise
+Next, I conducted a paired t-test to compare the mean vehicle noise complaints in the March 1 to May 31, 2019 period against the 2020 period.
+I found a T statistic of -2.175 and a P value of .0323 which indicates that there was a **statistically significant increase** in the 
+number of 311 vehicle noise complaints during the 2020 period.
+
+#### Street & Sidewalk Noise
+Next, I conducted a paired t-test to compare the mean street/sidewalk noise complaints in the March 1 to May 31, 2019 period against the 2020 period.
+I found a T statistic of -3.520 and a P value of .000675 which indicates that there was a **statistically significant increase** in the 
+number of 311 street and sidewalk noise complaints during the 2020 period.
+
+#### Residential Noise
+Finally, I conducted a paired t-test to compare the mean street/sidewalk noise complaints in the March 1 to May 31, 2019 period against the 2020 period.
+I found a T statistic of -5.995 and a P value of 4.040e-8 which indicates that there was a **statistically significant increase** in the 
+number of 311 residential noise complaints during the 2020 period.
+
+Here are some screenshots of the Scipy T-Tests I conducted in order to find these results:
+
+### Hypothesis 2 Testing Photos
+
+**Commercial and Vehicle Noise Complaint Tests**
+
+![image](https://user-images.githubusercontent.com/44076192/232324157-5bb8a676-2d78-468b-825a-dd80e8f02c71.png)
+
+**Street/Sidewalk and Residential Noise Complaint Tests**
+
+![image](https://user-images.githubusercontent.com/44076192/232324192-2815edb8-fb0b-48a6-8364-9415ed128438.png)
+
+### Recap
+
+Just to recap, I found a statistically significant increase in overall noise complaints and residential noise complaints, and a statistically significant decrease in commercial noise complaints. I also found statistically significant increases in vehicle and street/sidewalk noise complaints, which contradicted my hypothesis that there would be a significant decrease in these types of complaints.

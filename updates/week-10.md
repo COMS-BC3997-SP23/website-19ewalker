@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Project Week Ten
+title: Project Week 7
 parent: Updates
 ---
 

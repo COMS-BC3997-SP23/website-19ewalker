@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Project Week 8
+title: Project Week 5
 parent: Updates
 ---
 
-## Project Week 8 (aka Check-In Time)
+## Project Week 5 (aka Check-In Time)
 
 Here's a brief rundown of what I've been up to with this project. My goal is to analyze differences in 311 noise complaint activity in New York City 
 that occurred during the COVID-19 pandemic. 

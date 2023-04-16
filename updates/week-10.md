@@ -65,3 +65,5 @@ Here are some screenshots of the Scipy T-Tests I conducted in order to find thes
 ### Recap
 
 Just to recap, I found a statistically significant increase in overall noise complaints and residential noise complaints, and a statistically significant decrease in commercial noise complaints. I also found statistically significant increases in vehicle and street/sidewalk noise complaints, which contradicted my hypothesis that there would be a significant decrease in these types of complaints.
+
+Next, I'm planning to use some kind of regression techniques to test my third hypothesis!

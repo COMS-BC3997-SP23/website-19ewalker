@@ -32,3 +32,9 @@ Additionally, I found that my linear regression model had an **intercept of 108.
 ### Linear Regression Test Results
 
 <img width="1187" alt="image" src="https://user-images.githubusercontent.com/44076192/232328430-2ea58bc9-3c05-4a7e-95a9-a606607ed227.png">
+
+Just for fun, I also decided to input a range of incomes to the model just to see what the predicted changes of noise levels would turn out to be:
+
+<img width="1151" alt="image" src="https://user-images.githubusercontent.com/44076192/233660280-4cc8ac28-cf67-4bb8-8918-726d34974f37.png">
+
+As we can see from the results, the model nicely captures the inverse relationship between income and % change in noise level.

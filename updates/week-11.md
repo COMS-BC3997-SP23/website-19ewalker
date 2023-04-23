@@ -38,3 +38,11 @@ Just for fun, I also decided to input a range of incomes to the model just to se
 <img width="1151" alt="image" src="https://user-images.githubusercontent.com/44076192/233660280-4cc8ac28-cf67-4bb8-8918-726d34974f37.png">
 
 As we can see from the results, the model nicely captures the inverse relationship between income and % change in noise level.
+
+### Linear Regression Visualization
+
+I wanted people interested to be able to see the actual relationship between income and % changes in noise complaint frequency during the beginning of the pandemic so I utilized sk_learn's linear model in order to graph this relationship in MatPlotLib. The solid line is the regression model's predicted
+relationship between the independent and dependent variable. As you can see, there are definitely variance that makes it far from a linear relationship, but it is interesting to see the loose connection between the two variables.
+
+![image](https://user-images.githubusercontent.com/44076192/233864402-87f7d25f-0134-4b3e-a2dd-d10cfeda1942.png)
+

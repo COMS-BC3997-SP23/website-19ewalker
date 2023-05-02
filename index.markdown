@@ -6,6 +6,8 @@ layout: home
 ---
 # 311 Data Project
 
-For my project in COMS BC 3997, I plan to build a website supported by the NYC 311 Call database in order to analyze and visualize 311 service requests in New York City over the course of the COVID-19 pandemic. In this project, I plan to combine data with city history in order to see how city residents' living situations, anxieties, and needs changed in accordance with landmark moments throughout the pandemic.
+For my project in COMS BC 3997, I explored the NYC 311 Call database in order to analyze and visualize 311 noise complaint calls in New York City during the beginning months of the COVID-19 pandemic.
 
-Keep checking my site to stay updated on progress!
+If you’re interested in reading my full report, check it out the [final paper](https://coms-bc3997-sp23.github.io/website-19ewalker/walker-coms-bc-3997-final-paper.pdf).
+
+If you want to read through my final presentation slides on your own time, check out the [slide deck](https://coms-bc3997-sp23.github.io/website-19ewalker/final-311-presentation.pdf).

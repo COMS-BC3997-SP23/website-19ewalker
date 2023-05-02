@@ -10,11 +10,8 @@ The last week or two, I have just been focused on writing my final paper + prese
 
 ### Final Paper
 
-If you're interested in reading my full final paper, check it out the final version [here](placeholder). Please excuse the Excel spreadsheets,
-I promise that I know how to use MatPlotLib (see: other weekly updates).
+If you're interested in reading my full final paper, check it out the [final paper](https://coms-bc3997-sp23.github.io/website-19ewalker/walker-coms-bc-3997-final-paper.pdf). 
 
 ### Final Presentation
 
-If you want to read through my final presentation slides on your own time, check out the slide deck [here](placeholder2). 
-
-Thanks for a great semester!
+If you want to read through my final presentation slides on your own time, check out the [slide deck](https://coms-bc3997-sp23.github.io/website-19ewalker/final-311-presentation.pdf). 
